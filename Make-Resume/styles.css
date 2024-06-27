@@ -1,0 +1,133 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Resume container styling */
+.resume-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header .contact-info h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header .contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+header .contact-info ul {
+    list-style: none;
+}
+
+header .contact-info ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #ff4a57;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+section p, section ul, section .job-duration, section .degree-duration {
+    font-size: 16px;
+}
+
+section .skill-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .skill-list li {
+    background: #ff4a57;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Job and project styling */
+.job, .project {
+    margin-bottom: 10px;
+}
+
+.job h3, .project h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.job h4, .project a {
+    font-size: 18px;
+    color: #ff4a57;
+    margin-bottom: 5px;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4a57;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff7a85;
+}
